@@ -5,48 +5,51 @@
 <title>Для тебя 🤍</title>
 <style>
 body {
-  background:#0f0f0f;
-  color:white;
-  font-family:Arial;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  margin:0;
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 #box {
-  text-align:center;
-  max-width:400px;
+  text-align: center;
+  max-width: 400px;
 }
 input {
-  padding:10px;
-  font-size:16px;
-  margin-top:10px;
-  width:100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
 }
 button {
-  margin-top:10px;
-  padding:10px;
-  font-size:16px;
-  width:100%;
-  cursor:pointer;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
 }
-iframe {
-  width:100%;
-  height:225px;
-  margin-top:20px;
+a button {
+  background-color: #ffddaa;
+  color: #0f0f0f;
+  border: none;
+  font-weight: bold;
 }
 </style>
 </head>
 
 <body>
 <div id="box">
-  <h2>Введите пароль</h2>
-  <input type="password" id="password">
+  <h2>Сюрприз для тебя 🤍</h2>
+  <input type="password" id="password" placeholder="Введите пароль">
   <button onclick="check()">Открыть</button>
 
   <div id="video" style="display:none;">
-    <iframe src="https://t.me/+eJnFqDnZ_6oxZWIy" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <a href="https://t.me/+eJnFqDnZ_6oxZWIy" target="_blank">
+      <button>Открыть сюрприз</button>
+    </a>
   </div>
 </div>
 
